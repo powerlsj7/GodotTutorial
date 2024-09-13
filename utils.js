@@ -5,6 +5,7 @@ function NextPage(pageName,id) {
 
     // 클릭 이벤트 리스너를 추가합니다.
     button.addEventListener('click', function () {
-        window.location.href = pageName;
+ button.disabled = true;        
+window.location.href = pageName;
     });
 }
